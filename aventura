@@ -1,0 +1,190 @@
+def historia():
+    print("¡Bienvenido a la aventura!")
+    print("Te encuentras en un bosque misterioso.")
+    print("¿Qué quieres hacer?")
+    print("1. Entrar en la cabaña")
+    print("2. Salir del bosque")
+    print("3. Quedarte en el lugar")
+    opcion1 = input("Elige una opción (1, 2, 3): ")
+
+    if opcion1 == '1':
+        cabaña()
+    elif opcion1 == '2':
+        salir_bosque()
+    elif opcion1 == '3':
+        quedarte()
+    else:
+        print("Opción no válida. Intenta de nuevo.")
+        historia()
+
+def cabaña():
+    print("\nEntraste en la cabaña y encuentras a un diablo.")
+    print("El diablo te mira con una sonrisa malvada.")
+    print("¿Qué quieres hacer?")
+    print("1. Hablar con el diablo")
+    print("2. Intentar salir rápidamente")
+    print("3. Quedarte y escuchar")
+    opcion = input("Elige una opción (1, 2, 3): ")
+
+    if opcion == '1':
+        hablar_diablo()
+    elif opcion == '2':
+        salir_rapidamente()
+    elif opcion == '3':
+        quedarte_y_escuchar()
+    else:
+        print("Opción no válida. Intenta de nuevo.")
+        cabaña()
+
+def salir_bosque():
+    print("\nDecides salir del bosque, pero un segundo diablo aparece.")
+    print("El diablo te dice: '¿Estás seguro de que quieres irte?'")
+    print("1. Sí, quiero irme")
+    print("2. No, quiero quedarme")
+    opcion = input("Elige una opción (1, 2): ")
+
+    if opcion == '1':
+        print("Saliste del bosque, pero te sientes un poco inquieto.")
+        print("Fin de la historia.")
+    elif opcion == '2':
+        print("Decides quedarte y explorar más.")
+        cabaña()
+    else:
+        print("Opción no válida. Intenta de nuevo.")
+        salir_bosque()
+
+def quedarte():
+    print("\nDecides quedarte en el lugar y esperar.")
+    print("Un diablo aparece y te dice: '¿Quieres hacer un trato?'")
+    print("1. Aceptar el trato")
+    print("2. Rechazar y quedarte quieto")
+    opcion = input("Elige una opción (1, 2): ")
+
+    if opcion == '1':
+        print("El diablo te ofrece poder a cambio de tu alma.")
+        print("¿Qué decides hacer?")
+        print("1. Aceptar")
+        print("2. Rechazar")
+        decision = input("Elige una opción (1, 2): ")
+        if decision == '1':
+            print("Hiciste un trato con el diablo y ahora tienes poderes.")
+            print("Fin de la historia.")
+        elif decision == '2':
+            print("Decides no hacer el trato y el diablo desaparece.")
+def historia():
+    print("¡Bienvenido a la aventura!")
+    print("Te encuentras en un bosque misterioso.")
+    print("¿Qué quieres hacer?")
+    print("1. Entrar en la cabaña")
+    print("2. Salir del bosque")
+    print("3. Quedarte en el lugar")
+    opcion1 = input("Elige una opción (1, 2, 3): ")
+
+    if opcion1 == '1':
+        cabaña()
+    elif opcion1 == '2':
+        salir_bosque()
+    elif opcion1 == '3':
+        quedarte()
+    else:
+        print("Opción no válida. Intenta de nuevo.")
+        historia()
+
+def cabaña():
+    print("\nEntraste en la cabaña y encuentras a un diablo.")
+    print("El diablo te mira con una sonrisa malvada.")
+    print("¿Qué quieres hacer?")
+    print("1. Hablar con el diablo")
+    print("2. Intentar salir rápidamente")
+    print("3. Quedarte y escuchar")
+    opcion = input("Elige una opción (1, 2, 3): ")
+
+    if opcion == '1':
+        hablar_diablo()
+    elif opcion == '2':
+        salir_rapidamente()
+    elif opcion == '3':
+        quedarte_y_escuchar()
+    else:
+        print("Opción no válida. Intenta de nuevo.")
+        cabaña()
+
+def salir_bosque():
+    print("\nDecides salir del bosque, pero un segundo diablo aparece.")
+    print("El diablo te dice: '¿Estás seguro de que quieres irte?'")
+    print("1. Sí, quiero irme")
+    print("2. No, quiero quedarme")
+    opcion = input("Elige una opción (1, 2): ")
+
+    if opcion == '1':
+        print("Saliste del bosque, pero te sientes un poco inquieto.")
+        print("Fin de la historia.")
+    elif opcion == '2':
+        print("Decides quedarte y explorar más.")
+        cabaña()
+    else:
+        print("Opción no válida. Intenta de nuevo.")
+        salir_bosque()
+
+def quedarte():
+    print("\nDecides quedarte en el lugar y esperar.")
+    print("Un diablo aparece y te dice: '¿Quieres hacer un trato?'")
+    print("1. Aceptar el trato")
+    print("2. Rechazar y quedarte quieto")
+    opcion = input("Elige una opción (1, 2): ")
+
+    if opcion == '1':
+        print("El diablo te ofrece poder a cambio de tu alma.")
+        print("¿Qué decides hacer?")
+        print("1. Aceptar")
+        print("2. Rechazar")
+        decision = input("Elige una opción (1, 2): ")
+        if decision == '1':
+            print("Hiciste un trato con el diablo y ahora tienes poderes.")
+            print("Fin de la historia.")
+        elif decision == '2':
+            print("Decides no hacer el trato y el diablo desaparece.")
+            print("Fin de la historia.")
+        else:
+            print("Opción no válida. Intenta de nuevo.")
+            quedarte()
+    elif opcion == '2':
+        print("Te quedas quieto y el diablo se va.")
+        print("Fin de la historia.")
+    else:
+        print("Opción no válida. Intenta de nuevo.")
+        quedarte()
+
+def hablar_diablo():
+    print("\nHablas con el diablo y te ofrece un deseo.")
+    print("¿Qué deseas?")
+    print("1. Poder")
+    print("2. Riqueza")
+    print("3. Salir de la cabaña")
+    deseo = input("Elige una opción (1, 2, 3): ")
+
+    if deseo == '1':
+        print("El diablo te concede poder, pero a un precio.")
+        print("Fin de la historia.")
+    elif deseo == '2':
+        print("Te conviertes en rico, pero te sientes vacío.")
+        print("Fin de la historia.")
+    elif deseo == '3':
+        print("Decides salir de la cabaña.")
+        historia()
+    else:
+        print("Opción no válida. Intenta de nuevo.")
+        hablar_diablo()
+
+def salir_rapidamente():
+    print("\nIntentas salir rápidamente de la cabaña.")
+    print("El diablo intenta detenerte, pero logras escapar.")
+    print("Fin de la historia.")
+
+def quedarte_y_escuchar():
+    print("\nTe quedas y escuchas al diablo.")
+    print("Él comparte historias de almas perdidas.")
+    print("Fin de la historia.")
+
+# Iniciar la aventura
+historia()
